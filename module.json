@@ -1,0 +1,38 @@
+{
+  "name": "dead-in-thay",
+  "title": "Dead in Thay",
+  "description": "Maps from Dead in Thay.",
+  "version": "1.0.0",
+  "author": "Pariah Zero#9919",
+  "authors": [
+    {
+      "name": "Pariah Zero",
+      "url": "https://www.pariahzero.net",
+      "email": "pariah@pariahzero.net",
+      "twitter": "@pariah_zero",
+      "discord": "Pariah Zero#9919"
+    }
+  ],
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "9",
+  "packs": [
+      {
+          "name": "dead-in-thay-scenes",
+          "label": "Dead in Thay",
+          "path": "./packs/dit-scenes.db",
+          "type": "Scene"
+      }
+  ],
+  "manifest": "https://www.pariahzero.net/VTT/Dead-in-Thay/module.json",
+  "download": "https://www.pariahzero.net/VTT/Dead-in-Thay/dead-in-thay.zip",
+  "dependencies": [
+    {
+      "name": "compendium-folders",
+      "type": "module"
+    },
+    {
+      "name": "stairways",
+      "type": "module"
+    }
+  ]
+}
