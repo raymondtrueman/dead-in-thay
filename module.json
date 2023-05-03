@@ -2,7 +2,7 @@
   "name": "dead-in-thay",
   "title": "Dead in Thay",
   "description": "Maps from Dead in Thay.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Pariah Zero#9919",
   "authors": [
     {
@@ -14,7 +14,7 @@
     }
   ],
   "minimumCoreVersion": "0.8.6",
-  "compatibleCoreVersion": "9",
+  "compatibleCoreVersion": "10",
   "packs": [
       {
           "name": "dead-in-thay-scenes",
