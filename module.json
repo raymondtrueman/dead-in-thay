@@ -1,8 +1,8 @@
 {
-  "name": "dead-in-thay",
+  "id": "dead-in-thay",
   "title": "Dead in Thay",
   "description": "Maps from Dead in Thay.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Pariah Zero#9919",
   "authors": [
     {
@@ -15,15 +15,19 @@
   ],
   "minimumCoreVersion": "0.8.6",
   "compatibleCoreVersion": "10",
+  "compatibility": {
+    "minimum": "9",
+    "verified": "10"
+  },
   "packs": [
-      {
-          "name": "dead-in-thay-scenes",
-          "label": "Dead in Thay",
-          "path": "./packs/dit-scenes.db",
-          "type": "Scene"
-      }
+    {
+      "name": "dead-in-thay-scenes",
+      "label": "Dead in Thay",
+      "path": "./packs/dit-scenes.db",
+      "type": "Scene"
+    }
   ],
-  "url":  "https://github.com/Pariah-Zero/dead-in-thay",
+  "url": "https://github.com/Pariah-Zero/dead-in-thay",
   "manifest": "https://www.pariahzero.net/VTT/Dead-in-Thay/module.json",
   "download": "https://www.pariahzero.net/VTT/Dead-in-Thay/dead-in-thay.zip",
   "dependencies": [
