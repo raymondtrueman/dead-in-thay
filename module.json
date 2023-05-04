@@ -2,7 +2,7 @@
   "id": "dead-in-thay",
   "title": "Dead in Thay",
   "description": "Maps from Dead in Thay.",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "Pariah Zero#9919",
   "authors": [
     {
@@ -29,7 +29,7 @@
   ],
   "url": "https://github.com/Pariah-Zero/dead-in-thay",
   "manifest": "https://www.pariahzero.net/VTT/Dead-in-Thay/module.json",
-  "download": "https://www.pariahzero.net/VTT/Dead-in-Thay/dead-in-thay.zip",
+  "download": "https://www.pariahzero.net/VTT/Dead-in-Thay/dead-in-thay-1.0.6.zip",
   "dependencies": [
     {
       "name": "compendium-folders",
