@@ -1,9 +1,9 @@
 {
-  "id": "dead-in-thay",
-  "title": "Dead in Thay",
-  "description": "Maps from Dead in Thay.",
-  "version": "1.0.6",
-  "author": "Pariah Zero#9919",
+  "id": "p0-dead-in-thay",
+  "name": "p0-dead-in-thay",
+  "title": "Pariah Zero's Dead in Thay Fan Content",
+  "description": "This is a third party fan content remapping of <a href=https://forgottenrealms.fandom.com/wiki/Dead_in_Thay>Dead in Thay</a>, by Scott Fitzgerald Gray. It contains scenes importable in FoundryVTT. If you have purchased the adventure from <a href=https://www.dndbeyond.com/marketplace/adventures/dead-in-thay>D&D Beyond</a>, you can use MrPrimate's <a href=https://github.com/MrPrimate/ddb-adventure-muncher>DDB-Adventure Muncher</a> and <a href=https://foundryvtt.com/packages/ddb-importer>DDB-Importer</a> to enhance these scenes with the remaining content in Dead in Thay's Doomvault - actors, journal entries, etc.",
+  "version": "1.0.7",
   "authors": [
     {
       "name": "Pariah Zero",
@@ -16,7 +16,7 @@
   "minimumCoreVersion": "0.8.6",
   "compatibleCoreVersion": "10",
   "compatibility": {
-    "minimum": "9",
+    "minimum": "0.8.6",
     "verified": "10"
   },
   "packs": [
@@ -29,7 +29,7 @@
   ],
   "url": "https://github.com/Pariah-Zero/dead-in-thay",
   "manifest": "https://www.pariahzero.net/VTT/Dead-in-Thay/module.json",
-  "download": "https://www.pariahzero.net/VTT/Dead-in-Thay/dead-in-thay-1.0.6.zip",
+  "download": "https://www.pariahzero.net/VTT/Dead-in-Thay/dead-in-thay-1.0.7.zip",
   "dependencies": [
     {
       "name": "compendium-folders",
@@ -43,5 +43,30 @@
       "name": "stairways",
       "type": "module"
     }
-  ]
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "compendium-folders",
+        "type": "module",
+        "compatibility": {
+          "verified": "2.5.7"
+        }
+      },
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "compatibility": {
+          "verified": "1.12.12.0"
+        }
+      },
+      {
+        "id": "stairways",
+        "type": "module",
+        "compatibility": {
+          "verified": "0.9.1"
+        }
+      }
+    ]
+  }
 }
