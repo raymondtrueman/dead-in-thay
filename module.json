@@ -27,9 +27,9 @@
       "type": "Scene"
     }
   ],
-  "url": "https://github.com/Pariah-Zero/dead-in-thay",
-  "manifest": "https://www.pariahzero.net/VTT/Dead-in-Thay/module.json",
-  "download": "https://www.pariahzero.net/VTT/Dead-in-Thay/dead-in-thay-1.0.8.zip",
+  "url": "https://github.com/raymondtrueman/dead-in-thay",
+  "manifest": "https://raw.githubusercontent.com/raymondtrueman/dead-in-thay/refs/heads/main/module.json",
+  "download": "https://github.com/raymondtrueman/dead-in-thay/archive/refs/tags/v1.0.zip",
   "dependencies": [
     {
       "name": "lib-wrapper",
