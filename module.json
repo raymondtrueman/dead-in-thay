@@ -17,7 +17,7 @@
   "compatibleCoreVersion": "10",
   "compatibility": {
     "minimum": "0.8.6",
-    "verified": "10"
+    "verified": "12"
   },
   "packs": [
     {
@@ -32,10 +32,6 @@
   "download": "https://www.pariahzero.net/VTT/Dead-in-Thay/dead-in-thay-1.0.8.zip",
   "dependencies": [
     {
-      "name": "compendium-folders",
-      "type": "module"
-    },
-    {
       "name": "lib-wrapper",
       "type": "module"
     },
@@ -46,13 +42,6 @@
   ],
   "relationships": {
     "requires": [
-      {
-        "id": "compendium-folders",
-        "type": "module",
-        "compatibility": {
-          "verified": "2.5.7"
-        }
-      },
       {
         "id": "lib-wrapper",
         "type": "module",
